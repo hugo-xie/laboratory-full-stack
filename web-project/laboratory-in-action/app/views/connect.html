@@ -1,0 +1,45 @@
+<form id="redemption" method="post">
+      <hgroup>
+        <h2 style="font-family: STKaiti,KaiTi;">联系我们</h2>
+        <h2 style="font-family: STKaiti,KaiTi;">如果你和我们志同道合，我们欢迎你的加入，现在就介绍一下你自己吧</h2>
+      </hgroup>
+      <fieldset>
+        <legend >个人信息</legend>
+        <div>
+          <label for="film">姓名</label>
+          <input id="film" name="film" type="text" placeholder="e.g. King Kong" required aria-required="true" ng-model="input.name">
+        </div>
+        <div>
+          <label for="yearOfCrime">年龄</label>
+          <input id="yearOfCrime" name="yearOfCrime" type="text" required aria-required="true" ng-model="input.age">
+        </div>
+         <div>
+          <label for="yearOfCrime">电话号码</label>
+          <input id="yearOfCrime" name="yearOfCrime" type="number"  required aria-required="true" ng-model="input.phonenumber">
+        </div>
+         <div>
+          <label for="yearOfCrime">电子邮箱</label>
+          <input id="yearOfCrime" name="yearOfCrime" type="email"  required aria-required="true" ng-model="input.email">
+        </div>
+        <div>
+          <label for="awardWon">本科学校</label>
+          <input id="awardWon" name="awardWon" type="text" list="awards" ng-model="input.school">
+         <!--  <datalist id="awards">
+            <select>          
+              <option value="Best Picture"></option>
+              <option value="Best Director"></option>
+              <option value="Best Adapted Screenplay"></option>
+              <option value="Best Original Screenplay"></option>
+            </select>
+          </datalist> -->
+        </div>
+        <div>
+          <label for="whyItsWrong">有什么要补充的吗？</label>
+          <textarea id="whyItsWrong" name="whyItsWrong" placeholder="I fell asleep within 20 minutes..." required aria-required="true"  ng-model="input.comment"></textarea>
+        </div>
+      </fieldset>
+      
+      
+     
+      <button ng-click="send()" style="font-family: STKaiti;">发送给我们</button>
+    </form>

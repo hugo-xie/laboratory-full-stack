@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    
+    <link rel="stylesheet" type="text/css" href="styles/xy-main.css">
+    <link rel="stylesheet" type="text/css" href="styles/connect.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/excellent.css">
+    <link rel="stylesheet" type="text/css" href="styles/teacher.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/responsive-nav.css">
+    <!-- endbuild -->
+   <!--  <script type="text/javascript" src="http://api.youziku.com/webfont/FastJS/yzk_526EC758B300C049"></script>
+    <script type="text/javascript"> 
+   $youziku.load("#logo", "dc98c0673ca14d749086a49aad92a14b", "chenwixun-jian"); 
+/*$youziku.load("#id2", "7642048afbfb4e28936e02162e8314d3", "LiDeBiao-Xing3");*/ 
+/*$youziku.load(".class1", "7642048afbfb4e28936e02162e8314d3", "LiDeBiao-Xing3");*/ 
+/*$youziku.load(".class2", "7642048afbfb4e28936e02162e8314d3", "LiDeBiao-Xing3");*/ 
+/*．．．*/ 
+   $youziku.draw(); 
+</script> -->
+  </head>
+  <body ng-app="laboratoryHomepageApp" id="redemptionPage">
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+   <div id="wrapper"> 
+  <!-- the header and navigation -->
+  <header role="banner" class="group">
+  <image src="images/logo.png" ></image>
+    <div id="logo">310实验室</div> 
+    <nav role="navigation"> 
+      <ul>
+        <li style="font-family: STKaiti,KaiTi;"><a href="#/about">实验室介绍</a></li>
+        <li style="font-family: STKaiti,KaiTi;"><a href="#">研究方向</a></li>
+        <li style="font-family: STKaiti,KaiTi;"><a href="#/teacherintroduce">导师风采</a></li>
+        <li style="font-family: STKaiti,KaiTi;"><a href="#/">科学研究</a></li>
+        <li style="font-family: STKaiti,KaiTi;"><a href="#/excellent">优秀学长</a></li>
+        <li style="font-family: STKaiti,KaiTi;"><a href="#">实验室新闻</a></li>
+        <li style="font-family: STKaiti,KaiTi;"><a href="#/connect">联系我们</a></li>
+      </ul>
+    </nav>  
+    
+  </header> 
+  <!-- the content -->
+  <div id="content" class="group" role="main">
+  <div ng-view="" ></div>
+  </div>
+  <!-- the sidebar -->
+  <aside>
+    <div role="complementary">
+      
+        <div class="sideBlock unSung">
+          <h1 style="font-family: STKaiti,KaiTi;">实验室项目</h1>
+          <div id="plus">
+          <div id="inner-wrapper">
+            <div id="projectwrapper1">
+              <h1 style="font-family: STKaiti,KaiTi;">KPI</h1>
+            </div>
+            <div id="inner">
+              <h2>项目具体</h2>
+            </div>
+          </div>
+          <!-- <button id="plusbutton">点击</button> -->
+      </div>
+      <div id="plus2">
+        <div id="inner-wrapper2">
+          <div id="projectwrapper2">
+            <h1>BI</h1>
+          </div>
+          <div id="inner">
+            <h2>项目具体</h2>
+          </div>
+        </div>
+      </div>
+        <!-- <a href="#"><img src="img/wyattEarp.jpg" alt="Wyatt Earp" /></a>
+        <a href="#"><img src="img/wyattEarp.jpg" alt="Wyatt Earp" /></a> -->
+        
+      </div>
+    </div>
+    <div role="complementary">
+      <div class="sideBlock overHyped">
+        
+        <div id="plus3">
+          <div id="inner-wrapper3">
+            <div id="projectwrapper3">
+              <h2>磁浮项目</h2>
+            </div>
+            <div id="inner"> 
+              <h2>项目详情</h2>
+            </div>
+          </div>
+        </div>
+        <div id="plus4">
+          <div id="inner-wrapper4">
+            <div id="projectwrapper4">
+              <h2>磁浮项目</h2>
+            </div>
+            <div id="inner"> 
+              <h2>项目详情</h2>
+            </div>
+          </div>
+        </div>
+        <!-- <a href="#"><img src="img/moulinRouge.jpg" alt="Moulin Rouge" /></a>
+        <a href="#"><img src="img/kingKong.jpg" alt="King Kong" /></a> -->
+      </div>
+    </div>
+  </aside> 
+  <!-- the footer -->
+  <footer role="contentinfo"> 
+    <p style="font-size: 4rem; text-shadow: 1px 1px 1px gray;font-family: STKaiti,KaiTi;">310实验室欢迎您的加入</p>
+  </footer> 
+
+</div> 
+</body>    
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script type="text/javascript" src="bower_components/angular-material/angular-material.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/leancloud-jssdk.js/dist/av.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/about.js"></script>
+        <script type="text/javascript" src="scripts/controller/main.js"></script>
+        <script type="text/javascript" src="scripts/controllers/connect.js"></script>
+        <script type="text/javascript" src="scripts/controllers/excellent.js"></script>
+        <script type="text/javascript" src="scripts/controllers/teacher.js"></script>
+        
+        <script type="text/javascript" src="srcipts/responsive-nav.css"></script>
+        <!-- endbuild -->
+        
+        <script type="text/javascript" src="scripts/factories/connect-factory.js"></script>
+
+
+</html>
